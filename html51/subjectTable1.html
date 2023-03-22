@@ -1,0 +1,38 @@
+<!doctype  html>  <!-- subjectTable1.html -->
+<html  lang="ko">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<style>
+table,thead,tbody,tfoot,tr,th,td{border: 2px solid black; border-collapse: collapse; text-align: center;}
+.subject1 { background-color:#44D7BE;} .subject2{ background-color:#FF4500;}.subject3{ background-color:#FF5050;}
+.subject4 { background-color:#FFD400;} .subject5{ background-color:#9FF84B;}.subject6{ background-color:#0055FF;}
+.subject7 { background-color:#4D377B;} .subject8 { background-color:#005d5f;} 
+th,td {width:50px;}
+</style>
+
+<title>HTML5 시간표</title>
+</head>
+
+<body>
+ <table>
+ <caption>&lt;표 1&gt; 시간표</caption>
+ <thead>
+ <tr>  <th>시간</th> <th>월</th> <th>화</th> <th>수</th> <th>목</th>  </tr>
+ </thead>
+<tbody>
+ <tr><td>1교시</td>  <td></td> <td rowspan="2" class="subject1">오토마타와 응용</td> <td rowspan="2" class="subject6">자료구조및실습</td> <td></td>
+ </tr>
+ <tr><td>2교시</td>  <td></td>   <td></td>    </tr>
+ <tr><td>3교시</td>  <td rowspan="2" class="subject3">디지털논리회로</td> <td rowspan="2" class="subject6">자료구조및실습</td> <td rowspan="2" class="subject2">동양고전의 지혜</td>
+ <td class="subject1">오토마타와 응용</td>    </tr>
+ <tr><td>4교시</td>   <td></td>  <td></td>    </tr>
+ <tr><td>5교시</td>  <td rowspan="4" class="subject4">C++프로그래밍</td> <td class="subject3">디지털 논리회로</td> <td rowspan="2" class="subject7">영어회화2</td> <td></td>    </tr>
+ <tr><td>6교시</td>   <td></td> <td></td>     </tr>
+ <tr><td>7교시</td>   <td></td> <td rowspan="2" class="subject5">인터넷 응용</td> <td class="subject8">진로멘토링</td>    </tr>
+ <tr><td>8교시</td>   <td></td> <td></td> <td></td>    </tr>
+ <tr><td>9교시</td>  <td class="subject5">인터넷응용</td> <td></td> <td></td> <td></td>    </tr>
+ </tbody>
+ 
+</table>
+</body>
+</html>

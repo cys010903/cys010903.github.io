@@ -1,0 +1,83 @@
+<!doctype htmi> <!-- basicSemanticMember1.html -->
+<html> <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<style>
+header, nav, section, article, aside, footer
+{border:1px solid gray; margin:5px; padding:8px; width: 1000px;}
+header h2 { float:left; border:solid 1px gray; margin:0 0 0 0; }
+header #headMenu { float:right; border:solid 1px gray; margin:20px 0 0 0; }
+header ul {margin:0; padding:0;}
+header ul li {display:inline; margin:5px;}
+header img { width:990px; height:200px; }
+section {width:750px; float:left; }
+section section {width:725px; float:left; }
+aside {width:221px; float:left; line-height:30px; }
+footer {height:50px; clear:both; }
+nav ul {margin:0; padding:0;}
+nav ul li {display:inline; margin:5px;}
+aside ul {margin:0; padding:0;}
+aside ul li {display:block; margin:5px;}
+aside ul li img { width:50px; height:50px; }
+a:link { color:blue; background-color:transparent; text-decoration:none; }
+a:visited{color:pink; background-color:transparent; text-decoration:none; }
+a:hover { color:red; background-color:transparent; text-decoration:underline;}
+a:active{color:blue: background-color:transparent; text-decoration:none; }
+</style>
+<title>시멘틱 학습</title></head>
+
+<body>
+<header>
+<h2><a href="https://drkdhong.github.io/2/basicSemantic4.html"></a></h2>
+<ul id="headMenu">
+<li>|</li>
+<li><a href="https://drkdhong.github.io/2/basicSemanticMember1.html"></a>|</li>
+<li>AFO </li>
+</ul>
+<img src="../wp/scene.png" alt="620"/>
+</header>
+<nav>
+<ul>
+<li><a href="https://www.w3.org/TR/html5/" target="_blank">HTML5</a></li>
+<li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+<li><a href="https://jquerymobile.com/" target="_blank">jQuery Mobile</a></li>
+<li><a href="../jsp/jspintro.html">JSP</a></li></ul>
+</nav>
+
+<section> <!-- main -->
+<section id="memberArea">
+<form id="memberForm" action="http://jspwork.herokuapp.com/ex/regCheck.jsp" method="post">
+<fieldset><legend>회원정보</legend>
+<fieldset> <legend>이름/이메일</legend>
+<label for="stud_name">이름</label>
+<input id="stud_name" type="text" name="stud_name" size="20" maxlength="50" required/><br/>
+<label for="stud_email">이메일</label>
+<input id="stud_email" type="text" name="stud_email" size="20" maxlength="50" /><br/>
+<label for="stud_phone">전화번호</label>
+<input id="stud_phone" type="text" name="stud_phone" size="20" maxlength="50" /><br/>
+</fieldset>
+<fieldset><legend>아이디/비밀번호</legend>
+<label for="stud_id">아이디</label>
+<input id="stud_id" type="text" name="stud_id" size="20" maxlength="50" required/><br/>
+<label for="stud_passwd">비밀번호</label>
+<input id="stud_passwd" type="password" name="stud_passwd" size="20" maxlength="50" required/>
+</fieldset>
+<fieldset><legend></legend>
+<label for="stud_gender1"></label>
+<input id="stud_gender1" type="radio" name="stud_gender" value="0" checked/>
+<label for="stud_gender2"></label>
+<input id="stud_gender2" type="radio" name="stud_gender" value="" />
+</fieldset>
+
+<fieldset><legend>취미</legend>
+<label for="stud_hobby1">낚시</label>
+<input id="stud_hobby1" type="checkbox" name="stud_hobby" value="낚시" />
+<label for="stud_hobby2">바둑</label>
+<input id="stud_hobby2" type="checkbox" name="stud_hobby" value="바둑">
+<label for="stud_hobby3">독서</label>
+<input id="stud_hobby3" type="checkbox" name="stud_hobby" value="독서"/>
+</fieldset>
+<input type="submit" value="회원등록">
+<input type="reset" value="취소">
+</fieldset>
+</form>
+</section>
+</section> <!-- /main -->

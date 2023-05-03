@@ -7,7 +7,7 @@
 <section><h2>JSP form</h2>
 <section>
 <h2>입력 정보</h2>
-<h2>:<%= request.getParameter("id_form")%><br/></h2>
+<h2>입력:<%= request.getParameter("id_form")%><br/></h2>
 </section>
 </section>
 </body></html>

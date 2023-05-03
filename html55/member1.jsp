@@ -12,7 +12,7 @@
 <div id="div1" class="class1">
 <label id="id11" class="class2" for="id12">이름</label>
 <% String sName = request.getParameter("sName");
-out.println("<input id="id12' class='class3' type='text' name='sName' size='20' maxlength='50' value='" +sName+"'/>");%></div>
+out.println("<input id="id12' class='class3' type='text' name='sName' size='20' maxlength='50' value='"+ sName +"'/>");%></div>
 <div id="div2" class="class1">
 <label id="id21" class="class2" for="id22">학번</label>
 <%= request.getParameter("sNumber")%></div>

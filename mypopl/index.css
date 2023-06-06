@@ -1,0 +1,148 @@
+
+/*
+  aside {height:100px;width:100px; float:right; line-height:30px;
+    margin-top: -1800px;}
+  aside ul {margin:0; padding:0;}
+  aside ul li{display:block; margin:5px;}
+  aside ul li img {width:50px; height:50px;}
+  table,tr,th,td{border: 1px solid rgba(138, 138, 138, 0.514); border-collapse: collapse; text-align: center; margin-left:auto;margin-right:auto;}
+  tr,th {height:30px}
+  th,td {width:300px;}
+*/
+
+
+body {min-width: fit-content;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  color:#bab9b9;
+  border-bottom: 1px solid #bab9b9;
+  margin-bottom: 16px;
+  padding-bottom: 5px;
+}
+
+h6 {
+  font-size: 6px;
+  color:#bab9b9;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(57, 53, 53);
+  color: white;
+  font-size: 12px;
+  padding:20px;
+}
+
+
+
+
+
+.title-box {
+  text-align: center; 
+}
+section {
+  margin-bottom: 34px; 
+}
+
+.mainbox {
+width:610px;
+margin: 30px;
+margin-left: auto;
+margin-right: auto;
+border: 1px solid #ebebeb;
+padding: 30px;
+box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.name-text {
+  font-size: 17px;
+  color:#696868;
+  font-weight: bold;
+  font-style: italic
+}
+
+.about-site-text {
+  text-align: left;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.hidden-box {
+  overflow: hidden;
+}
+
+.clkword {
+  font-size: 11px;
+  color: #0919ff;
+  float: left;
+}
+
+
+.my-div {
+  width : 150px;
+  height : 150px;
+  background-color : blue;
+}
+
+.hidden-title-box {
+  overflow: hidden;
+  background-color:rgba(78, 78, 78, 0.1)
+}
+
+.title-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: left;
+}
+
+.year-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: right;
+}
+
+.floating {
+  position: fixed; 
+  right: 15%; 
+  top: 15%; 
+  margin-right: -720px;
+  border-collapse: collapse; text-align: center; margin-left:auto;margin-right:auto;
+  width: 120px;
+  
+}
+
+
+*{font-family: 'Do Hyeon', sans-serif;}
+
+
+/* 자유게시판 */
+.free table {width: 610px; margin: 0 auto; border-collapse: collapse; table-layout: fixed;}
+.free th {border-top: 3px solid blue; border-bottom: 3px solid blue;}
+.free td {border-bottom: 1px solid gray;}
+.free .col1, .free .col4 {width: 8%;}
+.free .col3, .free .col5 {width: 14%;}
+.free th, .free td {padding: 10px;}
+.free td + td {text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.free td, .free td + td + td {text-align: center;}
+.free a {text-align: center; text-decoration: none; color: rgb(80, 80, 80);}
+.free a:hover {color: blueviolet;}
+.free a + span {font-size: .7em; color: black}
+.free .face {width: 12px;}
+.free .button {width: 610px; margin: 20px auto 5px; text-align: right;}
+.free .button a {
+    background: rgb(138, 233, 138); border-radius: 3px;
+    padding: 6px 8px; margin: 25px; text-decoration: none; color: black;
+}
+.free .button a:hover {color: blueviolet;}
+.free .number {width: 350px; margin: 0 auto;}
+.free .number::after {content: ''; display: block; clear: both;}
+.free .number div {
+    width:30px; height: 26px; background: rgb(188, 223, 236); border-radius: 5px;
+    text-align: center; margin: 10px 10px 0px; padding: 4px 0 0; float: left;
+}
+.free .number .select {background: rgb(253, 198, 94); text-decoration: underline;}

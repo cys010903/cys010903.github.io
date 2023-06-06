@@ -1,0 +1,193 @@
+<!doctype  html>	<!--  basicSemantic2.html -->
+<html  lang="ko">
+<head>
+
+
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+
+<title>HTML실습</title>
+
+<!--폰트 다운로드-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+
+
+
+
+
+</head>
+
+<header>
+  <nav><p></p></nav>
+</header>
+
+<!--  리모콘 -->
+<div class="floating">
+  <ul style="list-style: none;">
+    <li><div style="cursor: pointer;" onclick="window.scrollTo(0,0);"><img src="UP.png" alt="구글" width="50" height="50"/></a></li>
+    <li><div style="cursor: pointer;" onclick="window.scrollTo(0,document.body.scrollHeight);"><img src="DOWN.png" alt="트위터" width="50" height="50"/></a></li>
+  </ul>
+</div>
+
+<body>
+  <link href="index.css" rel="stylesheet">
+  <script src="index.js"></script>
+  <!--css 및 js 입력-->
+
+
+  <div class="mainbox">
+    <div class="title-box">
+      <h1> 포트폴리오 </h1>
+      <p class="name-text">20201374최용석</p>
+    </div>
+
+  <section >
+    <h2>ABOUT THIS WEB SITE</h2>
+      <p class="about-site-text">
+      인터넷응용 과목을 이수하면서 얻은 내용을 바탕으로 웹 사이트를 만드는 과제를 수행함.<br>
+      본 사이트에서는 다음과 같은 내용을 기제함<br>
+        <li class="about-site-text">수강(예정)과목</li>
+        <li class="about-site-text">자격증</li>
+        <li class="about-site-text">교내외 경진대회</li>
+      </p>
+  </section>
+
+  
+  <section>
+    <h2>수강(예정)과목</h2>
+
+      <div class="hidden-box">
+        <div class="hidden-title-box"> 
+          <p id="click1" class="clkword" onclick="onClick(1)">숨기기</p>
+          <p class="year-text">2020.03 ~ 2020.7</p>
+        </div>
+        <div class="hidden-box"><p class="title-text">이산수학 </p></div>
+        <div class="hidden-box"><p class="title-text">C프로그래밍</p></div>
+
+      </div>
+
+      <div class="hidden-box">
+        <div class="hidden-title-box">
+          <p id="click2" class="clkword" onclick='onClick(2)'>숨기기</p>
+          <p class="year-text">2023.03 ~ 2023.7</p>
+        </div>
+        <div class="hidden-box"><p class="title-text">오토마타와응용</p></div>  
+        <div class="hidden-box"><p class="title-text">디지털논리회로</p></div> 
+        <div class="hidden-box"><p class="title-text">C++프로그래밍</p></div>  
+        <div class="hidden-box"><p class="title-text">자료구조 및 실습</p></div>
+
+      </div>
+
+      <div class="hidden-box">
+        <div class="hidden-title-box">
+          <p id = "click3" class="clkword" onclick='onClick(3)'>숨기기</p>
+          <p class="year-text">2023.07 ~ 2023.11</p>
+        </div>
+        <div class="hidden-box"><p class="title-text">Java프로그래밍</p> </div>
+        <div class="hidden-box"><p class="title-text">데이터모델링</p> </div>
+        <div class="hidden-box"><p class="title-text">알고리즘및실습</p> </div>
+        <div class="hidden-box"><p class="title-text">수치계산및응용</p></div> 
+        <div class="hidden-box"><p class="title-text">윈도우프로그래밍</p></div>
+  
+      </div>
+
+      <div class="hidden-box">
+        <div class="hidden-title-box">
+          <p id = "click4" class="clkword" onclick='onClick(4)'>숨기기</p>
+          <p class="year-text">2024.03 ~ 2024.07</p>
+        </div>
+        <div class="hidden-box"><p class="title-text">운영체제</p></div> 
+        <div class="hidden-box"><p class="title-text">소프트웨어공학</p></div> 
+        <div class="hidden-box"><p class="title-text">데이터베이스시스템</p> </div>
+        <div class="hidden-box"><p class="title-text">임베디드 소프트웨어</p></div>
+
+      </div>
+
+      <div class="hidden-box">
+        <div class="hidden-title-box">
+          <p id = "click5" class="clkword" onclick='onClick(5)'>숨기기</p>
+          <p class="year-text">2024.03 ~ 2024.07</p>
+        </div>
+        <div class="hidden-box"><p class="title-text">컴퓨터통신보안</p> </div>
+        <div class="hidden-box"><p class="title-text">네트워크와데이터통신</p> </div>
+        <div class="hidden-box"><p class="title-text">컴퓨터그래픽스</p> </div>
+        <div class="hidden-box"><p class="title-text">데이터베이스실무프로젝트</p> </div>
+        <div class="hidden-box"><p class="title-text">컴퓨터구조</p> </div>
+
+      </div>
+  </section>
+
+  <section>
+    <h2>자격증</h2> 
+      <div class="hidden-box">
+        <div class="hidden-title-box">
+          <p id = "click6" class="clkword" onclick='onClick(6)'>숨기기</p>
+          <p class="year-text">2020.07 ~ 2020.11</p>
+        </div>
+        <div class="hidden-box"><p class="title-text">ITQ자격증(엑셀)</p></div>
+      </div>
+  </section>
+
+  <section>
+    <h2>교내외 경진대회</h2>
+      <div class="hidden-box">
+        <div class="hidden-box"><p class="title-text">추가예정</p></div>
+      </div>
+  </section>
+
+  <section>
+    <h2>제작물품</h2>
+
+        <h3>Runner</h3>
+        <a href="https://drive.google.com/file/d/14JeWfqPPOpIdx8MHfkpYYcOvIXvaqgdg/view?usp=sharing">
+          <img src="game1.png" alt="game1" width ="200" height="120"></a>
+          <p>2020년 4월 초부터 말까지 개발한 횡스크롤 러닝 엑션 게임이다. 사진을 클릭하면 다운로드</p>
+
+  </section>
+
+  <section>
+    <h2>현재 공부중인 것</h2>
+    <p>리소스 제작</p>
+    <p>유니티 심화과정 학습</p>
+    <p>전략 게임 개발</p>
+  </section>
+
+  <section>
+    <h2>메일 주소</h2>
+<table>
+  <tr>
+    <th>사이트명</th><th>주소</th>
+  </tr>
+  <tr>
+    <td><a href="https://mail.naver.com/v2/folders/-1">네이버</a></td>
+    <td>cys010903@naver.com</td>
+  </tr>
+  <tr>
+    <td><a href="https://mail.google.com/mail/u/0/#inbox">구글</a></td>
+    <td>cys010903@gmail.com</td>
+  </tr>
+  <tr>
+    <td><a href="https://mail.daum.net/">다음</a></td>
+    <td>cys010903@daum.com</td>
+  </tr>
+</table>
+</section>  
+
+  <footer>
+  <p>&copy; 20XX Made by Korea. All rights reserved.</p>
+  </footer>
+
+    </div>
+
+    <aside>
+    </aside>
+
+    
+
+  </div>
+  </body>
+  </html>
